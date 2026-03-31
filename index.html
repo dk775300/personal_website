@@ -51,7 +51,7 @@
     <link rel="stylesheet" href="css/styles.css">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔷</text></svg>">
+    <link rel="icon" type="image/jpeg" href="profile_photo.jpg">
 </head>
 <body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
 
@@ -59,7 +59,10 @@
     <header class="fixed top-0 w-full bg-white/90 dark:bg-gray-900/90 backdrop-blur-sm z-50 border-b border-gray-200 dark:border-gray-800">
         <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
-                <a href="#home" class="text-xl font-bold text-accent-light dark:text-accent-dark">DK</a>
+                <a href="#home" class="flex items-center gap-2">
+                    <img src="profile_photo.jpg" alt="Deepak Kumar" class="w-8 h-8 rounded-full object-cover border border-gray-300 dark:border-gray-600">
+                    <span class="text-xl font-bold text-accent-light dark:text-accent-dark hidden sm:inline">Deepak Kumar</span>
+                </a>
 
                 <!-- Desktop Navigation -->
                 <div class="hidden md:flex items-center space-x-8">
@@ -71,12 +74,12 @@
                     <a href="#contact" class="hover:text-accent-light dark:hover:text-accent-dark transition-colors">Contact</a>
 
                     <!-- Theme Toggle -->
-                    <button id="theme-toggle" class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" aria-label="Toggle dark mode">
-                        <svg id="sun-icon" class="w-5 h-5 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 15.364l-.707.707M12 21a8 8 0 110-16 0 16z"/>
+                    <button id="theme-toggle" class="p-2 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors shadow-sm" aria-label="Toggle dark mode">
+                        <svg id="sun-icon" class="w-6 h-6 text-yellow-500 hidden dark:block" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.003a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"/>
                         </svg>
-                        <svg id="moon-icon" class="w-5 h-5 block dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.831 12c.21.31.39.64.54 1 .34.87.34 1.8.34 2.73a9 9 0 01-9-9c.64 0 1.27.05 1.89.15"/>
+                        <svg id="moon-icon" class="w-6 h-6 text-gray-700 block dark:hidden" fill="currentColor" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 003.463-.69.75.75 0 01.981.98 10.503 10.503 0 01-9.694 6.46c-5.799 0-10.5-4.701-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 01.818.162z" clip-rule="evenodd"/>
                         </svg>
                     </button>
                 </div>
@@ -110,9 +113,7 @@
         <section class="min-h-screen flex items-center justify-center pt-16 px-4">
             <div class="max-w-4xl mx-auto text-center">
                 <div class="mb-8">
-                    <div class="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center text-white text-4xl font-bold shadow-lg">
-                        DK
-                    </div>
+                    <img src="profile_photo.jpg" alt="Deepak Kumar" class="w-32 h-32 mx-auto rounded-full object-cover shadow-lg border-4 border-white dark:border-gray-800">
                 </div>
                 <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
                     Hi, I'm <span class="text-accent-light dark:text-accent-dark">Deepak Kumar</span>
@@ -424,6 +425,14 @@
                 <p class="text-gray-500 dark:text-gray-500 mb-8">
                     Download my detailed resume for a complete overview of my experience and skills
                 </p>
+
+                <!-- Resume Preview - To update: replace assets/pdf/resume.pdf with your new resume file -->
+                <div class="mb-8 max-w-3xl mx-auto">
+                    <div class="rounded-lg overflow-hidden shadow-lg bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700">
+                        <iframe src="assets/pdf/resume.pdf" class="w-full h-96 sm:h-[500px]" title="Resume Preview"></iframe>
+                    </div>
+                </div>
+
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
                     <a href="assets/pdf/resume.pdf" download class="inline-flex items-center justify-center px-8 py-3 bg-accent-light dark:bg-accent-dark text-white rounded-lg hover:opacity-90 transition-opacity">
                         <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -509,12 +518,6 @@
                     </a>
                 </div>
 
-                <div class="text-gray-500 dark:text-gray-500">
-                    <p>Or find me on</p>
-                    <a href="https://github.com/dk775300" target="_blank" rel="noopener noreferrer" class="text-accent-light dark:text-accent-dark hover:underline">
-                        GitHub Profile
-                    </a>
-                </div>
             </div>
         </section>
 
